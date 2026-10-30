@@ -1,19 +1,11 @@
 public class Carro extends Automovel{
     
-    private final String modelo;
-    private double gasolinaRestante;
+    private final int quantidadeDePortas;
 
-    public Carro(String cor, String modelo){
+    public Carro(String cor, String modelo, int quantidadeDePortas){
 
-        super(4, "Terrestre", cor);
-        this.modelo = modelo;
-
+        super(4, "Rodoviario", cor, modelo);
+        this.quantidadeDePortas = quantidadeDePortas;
     }
-
-    public void abastecer (int quantidade){
-
-        this.gasolinaRestante += quantidade;
-    }
-
 
 }

@@ -3,12 +3,15 @@ public class Automovel {
     private final int quantidadeRodas;
     private final String ambiente;
     private String cor;
+    private final String modelo;
 
-    public Automovel(int quantidadeRodas, String ambiente, String cor){
+
+    public Automovel(int quantidadeRodas, String ambiente, String cor, String modelo){
 
         this.quantidadeRodas = quantidadeRodas;
         this.ambiente = ambiente;
         this.cor = cor;
+        this.modelo = modelo;
 
     }
 
